@@ -16,7 +16,7 @@ import bannerHome from "../mocks/bannerHome.json";
 function Banner() {
   return (
     <>
-      <Box bgColor='#87C4FF' w='1200px' minHeight='550px' maxHeight='100%' ms='40px' borderRadius="0px 0px 15px 15px">
+      <Box boxShadow='4px 12px 29px -12px rgba(0,0,0,0.75)' bgColor='#87C4FF' borderWidth='0px 1px 1px 1px' borderColor='#FFEED9' w='1100px' minHeight='550px' maxHeight='100%' ms='79px' borderRadius="0px 0px 15px 15px">
         <Box
           h="80vh"
           p="30px"
@@ -41,7 +41,7 @@ function Banner() {
             style={{
               border: "1px solid #87C4FF",
               borderRadius: "10px",
-              boxShadow: "30px 10px 35px -10px #87C4FF",
+              boxShadow: "1px -3px 29px -12px rgba(0,0,0,0.75)",
             }}
           >
             {bannerHome.map((data) => (

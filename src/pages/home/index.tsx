@@ -2,13 +2,15 @@ import React, { useRef, useState } from "react";
 import Banner from "./components/banner";
 import { Box } from "@chakra-ui/react";
 import Category from "./components/category";
+import Populer from "./components/populer";
 
 function Index() {
   return (
     <>
-      <Box bgColor="#E0F4FF" minHeight='calc(100vh)' maxHeight='calc(100vh)' >
+      <Box>
         <Banner />
         <Category />
+        <Populer />
       </Box>
     </>
   );

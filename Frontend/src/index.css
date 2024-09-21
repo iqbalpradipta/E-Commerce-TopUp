@@ -10,6 +10,8 @@ html, body {
   margin: 0;
   font-family: "Oxygen", sans-serif;
   background-color: #E0F4FF;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231019/pngtree-aesthetic-blue-sky-with-clouds-as-textured-background-image_13670859.png');
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }

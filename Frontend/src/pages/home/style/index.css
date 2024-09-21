@@ -37,3 +37,30 @@ body {
   height: 100%;
   object-fit: fill;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .swiper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    width: 95%;
+  }
+
+  .swiper-slide {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 14px;
+  }
+}
